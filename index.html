@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvimento Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./imagens/perfil.png" alt="Avatar do Desenvolvedor" class="avatar">
+        <h1>Olá, eu sou Vitor!</h1>
+        <p class="subtitulo">Estudante de Desenvolvimento de Sistemas & Criador Web</p>
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="card">
+            <h2>Sobre mim</h2>
+            <p>
+                Bem-vindo ao meu portfólio! Estou aprendendo a desenvolver aplicações web modernas, 
+                organizando projetos com boas práticas e publicando minhas páginas na nuvem usando 
+                <strong>GitHub</strong> e <strong>Vercel</strong>.
+            </p>
+        </section>
+
+        <section id="habilidades" class="card">
+            <h2>Minhas Habilidades</h2>
+            <ul class="lista-habilidades">
+                <li>HTML5 Semântico</li>
+                <li>CSS3 Responsivo</li>
+                <li>JavaScript Básico</li>
+                <li>Git & GitHub</li>
+                <li>Deploy na Vercel</li>
+            </ul>
+        </section>
+
+        <section id="projetos" class="card">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <article class="projeto-item">
+                    <h3>Página de Portfólio</h3>
+                    <p>Site estático desenvolvido com HTML, CSS e JS puro e hospedado na Vercel.</p>
+                </article>
+                <article class="projeto-item">
+                    <h3>Calculadora de Notas</h3>
+                    <p>Aplicação interativa para cálculo de médias escolares.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="card">
+            <h2>Interação & Contato</h2>
+            <p>Clique no botão abaixo para testar o JavaScript ou deixar uma saudação:</p>
+            <button id="btn-mensagem" type="button">Clique aqui para uma mensagem</button>
+            <p id="texto-resposta" class="mensagem-oculta"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para a aula de Implantação de Aplicações Web • 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
